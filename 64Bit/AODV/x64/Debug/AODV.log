@@ -1,0 +1,35 @@
+﻿C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(368,5): warning MSB8004: Output Directory does not end with a trailing slash.  This build instance will add the slash as it is required to allow proper evaluation of the Output Directory.
+  Secure_AODV.c
+c:\users\tetcos.tetcos-pc\desktop\v10.0.14_x64\secure_aodv_x64_v10.0.14\aodv\secure_aodv.c(254): warning C4477: 'sprintf' : format string '%c' requires an argument of type 'int', but variadic argument 1 has type 'char *'
+c:\users\tetcos.tetcos-pc\desktop\v10.0.14_x64\secure_aodv_x64_v10.0.14\aodv\secure_aodv.c(254): warning C4313: 'sprintf': '%c' in format string conflicts with argument 1 of type 'char *'
+c:\users\tetcos.tetcos-pc\desktop\v10.0.14_x64\secure_aodv_x64_v10.0.14\aodv\secure_aodv.c(267): warning C4477: 'sprintf' : format string '%s' requires an argument of type 'char *', but variadic argument 3 has type 'NETSIM_IPAddress *'
+c:\users\tetcos.tetcos-pc\desktop\v10.0.14_x64\secure_aodv_x64_v10.0.14\aodv\secure_aodv.c(267): warning C4477: 'sprintf' : format string '%d' requires an argument of type 'int', but variadic argument 4 has type 'unsigned int *'
+c:\users\tetcos.tetcos-pc\desktop\v10.0.14_x64\secure_aodv_x64_v10.0.14\aodv\secure_aodv.c(267): warning C4313: 'sprintf': '%d' in format string conflicts with argument 4 of type 'unsigned int *'
+c:\users\tetcos.tetcos-pc\desktop\v10.0.14_x64\secure_aodv_x64_v10.0.14\aodv\secure_aodv.c(299): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+c:\users\tetcos.tetcos-pc\desktop\v10.0.14_x64\secure_aodv_x64_v10.0.14\aodv\secure_aodv.c(311): warning C4267: 'function': conversion from 'size_t' to 'int', possible loss of data
+  RSA.c
+  RREQ.c
+  RREP.c
+  RouteTable.c
+  RouteMaint.c
+  Malicious.c
+  HelloMessage.c
+  GeneralPacketProcessing.c
+  FIFOBuffer.c
+  AODV_RouteError.c
+  AODV_CheckRouteFound.c
+  AODV.c
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1189,5): warning MSB8012: TargetPath(C:\Users\TETCOS.TETCOS-PC\Desktop\v10.0.14_x64\Secure_AODV_x64_v10.0.14\AODV\..\Dll\AODV.dll) does not match the Linker's OutputFile property value (C:\Users\TETCOS.TETCOS-PC\Desktop\v10.0.14_x64\Secure_AODV_x64_v10.0.14\Dll\libAODV.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(1191,5): warning MSB8012: TargetName(AODV) does not match the Linker's OutputFile property value (libAODV). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+AODV.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+  AODV.lib(AODVlib.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+AODV.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+     Creating library ..\Dll\AODV.lib and object ..\Dll\AODV.exp
+LINK : warning LNK4098: defaultlib 'MSVCRT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Finished generating code
+AODV.lib(AODVlib.obj) : warning LNK4099: PDB 'AODVLib.pdb' was not found with 'AODV.lib(AODVlib.obj)' or at 'C:\Users\TETCOS.TETCOS-PC\Desktop\v10.0.14_x64\Secure_AODV_x64_v10.0.14\Dll\AODVLib.pdb'; linking object as if no debug info
+List.lib(List.obj) : warning LNK4099: PDB 'List.pdb' was not found with 'List.lib(List.obj)' or at 'C:\Users\TETCOS.TETCOS-PC\Desktop\v10.0.14_x64\Secure_AODV_x64_v10.0.14\Dll\List.pdb'; linking object as if no debug info
+  AODV.vcxproj -> C:\Users\TETCOS.TETCOS-PC\Desktop\v10.0.14_x64\Secure_AODV_x64_v10.0.14\AODV\..\Dll\AODV.dll
+  AODV.vcxproj -> ..\Dll\AODV.pdb (Full PDB)
